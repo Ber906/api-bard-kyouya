@@ -5,7 +5,7 @@ const app = express();
 
 let sessionId, cookies;
 
-const mainCookie = 'awga8NYVthqODmWtpaGeVMeDMfiSpy7yVTheEVd00Lhx_zKfQQcQjLLvEUc1gj7x-frWiQ.'; //change with ur own cookie
+const mainCookie = 'fAjuWT4BtPjo9AsS3LdkVZ8KjMnuozFjb8j94Kowgbj9bOlXVpFQ6ddunid0-DT71xVYbg.'; //change with ur own cookie
 
 class BardAI {
   constructor() {
