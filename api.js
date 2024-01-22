@@ -3,7 +3,7 @@ const axios = require('axios');
 
 const app = express();
 
-app.use(express.static("public"});
+app.use(express.static("public"));
 
 let sessionId, cookies;
 
