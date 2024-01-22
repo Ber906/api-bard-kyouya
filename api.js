@@ -3,6 +3,8 @@ const axios = require('axios');
 
 const app = express();
 
+app.use(express.static("public"});
+
 let sessionId, cookies;
 
 const mainCookie = 'fAjuWT4BtPjo9AsS3LdkVZ8KjMnuozFjb8j94Kowgbj9bOlXVpFQ6ddunid0-DT71xVYbg.'; //change with ur own cookie
